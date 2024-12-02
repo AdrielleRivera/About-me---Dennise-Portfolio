@@ -45,17 +45,18 @@ nav .denny:hover{
 }
 /*Put your main elements here*/
 .first-logo{
-    max-width: 750px;
+    max-width: 730px;
     width: 60%;
     position: absolute;
-    left: 45%;
-    top: 85px;
+    left: 42%;
+    top:90px;
+    z-index: 1;
 }
 .second-logo{
-    max-width: 750px;
+    max-width: 650px;
     width: 60%;
     position: absolute;
-    left: -3%;
+    left: 9%;
     top: 65px;
 }
 /*Put your main elements above*/
@@ -129,12 +130,14 @@ footer > p:first-of-type {
     .first-logo{
         width:90%;
         top:50px;
-        left: 8%;
+        left: 6%;
+        padding: 1rem;
         
     }
     .second-logo{
         width:45%;
-        top: 385px;
+        top: 390px;
+        left: 5%;
     }
     
 
